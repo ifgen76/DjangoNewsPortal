@@ -3,7 +3,7 @@ import re
 
 register = template.Library()
 
-bad_words = ['плохо', 'время', 'слово',]
+bad_words = ['художник', 'время', 'слово', 'о',]
 
 
 def replace(match):
